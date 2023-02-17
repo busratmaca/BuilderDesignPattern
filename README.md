@@ -15,5 +15,6 @@ Advantages of Builder Design Pattern
 
 Disadvantages of Builder Design Pattern
 
-The number of lines of code increases at least to double in builder pattern, but the effort pays off in terms of design flexibility and much more readable code.
-Requires creating a separate ConcreteBuilder for each different type of Product.
+º The number of lines of code increases at least to double in builder pattern, but the effort pays off in terms of design flexibility and much more readable code.
+
+º Requires creating a separate ConcreteBuilder for each different type of Product.
