@@ -11,5 +11,5 @@ urlBuilder
 
 var finalUrl = urlBuilder.BuildURL();
 
-Console.WriteLine("URL: "+ finalUrl);
+Console.WriteLine("URL: " + finalUrl);
 
