@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="HouseBuilder\" />
+    <None Remove="URLBuilderv2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="URLBuilderv1\" />
+    <Folder Include="URLBuilderv2\" />
+  </ItemGroup>
 </Project>

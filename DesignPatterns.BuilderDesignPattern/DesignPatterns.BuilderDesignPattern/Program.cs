@@ -1,4 +1,5 @@
-﻿using DesignPatterns.BuilderDesignPattern;
+﻿using DesignPatterns.BuilderDesignPattern.URLBuilderv1;
+using DesignPatterns.BuilderDesignPattern.URLBuilderv2;
 
 var urlBuilder = new URLBuilder("https://localhost");
 
@@ -11,5 +12,20 @@ urlBuilder
 
 var finalUrl = urlBuilder.BuildURL();
 
-Console.WriteLine("URL: " + finalUrl);
+Console.WriteLine("Final URL: " + finalUrl);
+
+/* v2 part*/
+
+var urlBuilderv2 = new URLBuilderv2();
+
+urlBuilderv2
+    .Protocol("https://")
+    .Hostname("mywebsite")
+    .PathParam("products")
+    .QueryParam("id", "5")
+    .QueryParam("name", "lolipop");
+
+var finalURLv2 = urlBuilderv2.BuildURL();
+
+Console.WriteLine("Final URL v2: " + finalURLv2);
 

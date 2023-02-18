@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace DesignPatterns.BuilderDesignPattern
+namespace DesignPatterns.BuilderDesignPattern.URLBuilderv1
 {
     public class URLBuilder
     {
