@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="HouseBuilder\" />
     <None Remove="URLBuilderv2\" />
+    <None Remove="HouseBuilderv2\" />
+    <None Remove="HouseBuilderv2\Housev2cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="URLBuilderv1\" />
     <Folder Include="URLBuilderv2\" />
+    <Folder Include="HouseBuilderv2\" />
   </ItemGroup>
 </Project>
